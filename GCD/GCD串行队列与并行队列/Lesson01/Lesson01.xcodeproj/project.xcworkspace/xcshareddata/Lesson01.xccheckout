@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CF143563-B376-4202-94AC-250D9C81F33E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F45706F0D06E267088E93B024D2540F3E7692E87</key>
+		<string>github.com:huangmengfei/iOSLearning.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GCD/GCD串行队列与并行队列/Lesson01/Lesson01.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F45706F0D06E267088E93B024D2540F3E7692E87</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:huangmengfei/iOSLearning.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F45706F0D06E267088E93B024D2540F3E7692E87</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F45706F0D06E267088E93B024D2540F3E7692E87</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSLearning</string>
+		</dict>
+	</array>
+</dict>
+</plist>
