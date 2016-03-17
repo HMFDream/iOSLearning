@@ -10,7 +10,7 @@
 #import "CALayerViewController.h"
 #import "AnimViewController.h"
 #import "ExchangeViewController.h"
-
+#import "CircleViewController.h"
 
 @interface MainTableViewController ()
 @property(strong,nonatomic)NSArray *titleArr;
@@ -23,11 +23,12 @@
     [super viewDidLoad];
     
     self.title = @"动画示例";
-    self.titleArr = @[@"CALayer",@"CAAnimation",@"exchange"];
+    self.titleArr = @[@"CALayer",@"CAAnimation",@"exchange",@"circleAnimation"];
     self.viewCtrlArr = @[
                          [CALayerViewController new],
                          [AnimViewController new],
-                         [ExchangeViewController new]
+                         [ExchangeViewController new],
+                         [CircleViewController new]
                          ];
 
 }

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>46B129BC-EE9F-40EC-87E5-C0EFD79468D5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Anim</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F45706F0D06E267088E93B024D2540F3E7692E87</key>
 		<string>github.com:huangmengfei/iOSLearning.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>动画/Anim/Anim.xcodeproj/project.xcworkspace</string>
+	<string>动画/Anim/Anim.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F45706F0D06E267088E93B024D2540F3E7692E87</key>

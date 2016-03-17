@@ -17,6 +17,10 @@
 		A0A860BC1C9A8F06007D5BAC /* CALayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A860BB1C9A8F06007D5BAC /* CALayerViewController.m */; };
 		A0A860BF1C9A94CE007D5BAC /* AnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A860BE1C9A94CE007D5BAC /* AnimViewController.m */; };
 		A0A860C21C9AA36C007D5BAC /* ExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A860C11C9AA36C007D5BAC /* ExchangeViewController.m */; };
+		A0A860C51C9ABF17007D5BAC /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A860C41C9ABF17007D5BAC /* WheelView.m */; };
+		A0A860C91C9ABF58007D5BAC /* WheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A860C81C9ABF58007D5BAC /* WheelView.xib */; };
+		A0A860CC1C9AC8F9007D5BAC /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A860CB1C9AC8F9007D5BAC /* CircleViewController.m */; };
+		A0A860CF1C9AD132007D5BAC /* CCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A860CE1C9AD132007D5BAC /* CCButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,13 @@
 		A0A860BE1C9A94CE007D5BAC /* AnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimViewController.m; sourceTree = "<group>"; };
 		A0A860C01C9AA36C007D5BAC /* ExchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeViewController.h; sourceTree = "<group>"; };
 		A0A860C11C9AA36C007D5BAC /* ExchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeViewController.m; sourceTree = "<group>"; };
+		A0A860C31C9ABF17007D5BAC /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		A0A860C41C9ABF17007D5BAC /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		A0A860C81C9ABF58007D5BAC /* WheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WheelView.xib; sourceTree = "<group>"; };
+		A0A860CA1C9AC8F9007D5BAC /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		A0A860CB1C9AC8F9007D5BAC /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		A0A860CD1C9AD132007D5BAC /* CCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCButton.h; sourceTree = "<group>"; };
+		A0A860CE1C9AD132007D5BAC /* CCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +101,8 @@
 		A0A8608D1C9A8BDB007D5BAC /* Anim */ = {
 			isa = PBXGroup;
 			children = (
+				A0A860C71C9ABF32007D5BAC /* SubContrller */,
+				A0A860C61C9ABF1E007D5BAC /* View */,
 				A0A860921C9A8BDB007D5BAC /* AppDelegate.h */,
 				A0A860931C9A8BDB007D5BAC /* AppDelegate.m */,
 				A0A860B71C9A8CBE007D5BAC /* MainTableViewController.h */,
@@ -98,12 +111,6 @@
 				A0A8609B1C9A8BDB007D5BAC /* Images.xcassets */,
 				A0A8609D1C9A8BDB007D5BAC /* LaunchScreen.xib */,
 				A0A8608E1C9A8BDB007D5BAC /* Supporting Files */,
-				A0A860BA1C9A8F06007D5BAC /* CALayerViewController.h */,
-				A0A860BB1C9A8F06007D5BAC /* CALayerViewController.m */,
-				A0A860BD1C9A94CE007D5BAC /* AnimViewController.h */,
-				A0A860BE1C9A94CE007D5BAC /* AnimViewController.m */,
-				A0A860C01C9AA36C007D5BAC /* ExchangeViewController.h */,
-				A0A860C11C9AA36C007D5BAC /* ExchangeViewController.m */,
 			);
 			path = Anim;
 			sourceTree = "<group>";
@@ -132,6 +139,33 @@
 				A0A860A91C9A8BDB007D5BAC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A860C61C9ABF1E007D5BAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0A860C31C9ABF17007D5BAC /* WheelView.h */,
+				A0A860C41C9ABF17007D5BAC /* WheelView.m */,
+				A0A860C81C9ABF58007D5BAC /* WheelView.xib */,
+				A0A860CD1C9AD132007D5BAC /* CCButton.h */,
+				A0A860CE1C9AD132007D5BAC /* CCButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0A860C71C9ABF32007D5BAC /* SubContrller */ = {
+			isa = PBXGroup;
+			children = (
+				A0A860BA1C9A8F06007D5BAC /* CALayerViewController.h */,
+				A0A860BB1C9A8F06007D5BAC /* CALayerViewController.m */,
+				A0A860BD1C9A94CE007D5BAC /* AnimViewController.h */,
+				A0A860BE1C9A94CE007D5BAC /* AnimViewController.m */,
+				A0A860C01C9AA36C007D5BAC /* ExchangeViewController.h */,
+				A0A860C11C9AA36C007D5BAC /* ExchangeViewController.m */,
+				A0A860CA1C9AC8F9007D5BAC /* CircleViewController.h */,
+				A0A860CB1C9AC8F9007D5BAC /* CircleViewController.m */,
+			);
+			name = SubContrller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +250,7 @@
 			files = (
 				A0A8609A1C9A8BDB007D5BAC /* Main.storyboard in Resources */,
 				A0A8609F1C9A8BDB007D5BAC /* LaunchScreen.xib in Resources */,
+				A0A860C91C9ABF58007D5BAC /* WheelView.xib in Resources */,
 				A0A8609C1C9A8BDB007D5BAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +271,10 @@
 			files = (
 				A0A860941C9A8BDB007D5BAC /* AppDelegate.m in Sources */,
 				A0A860C21C9AA36C007D5BAC /* ExchangeViewController.m in Sources */,
+				A0A860CC1C9AC8F9007D5BAC /* CircleViewController.m in Sources */,
 				A0A860911C9A8BDB007D5BAC /* main.m in Sources */,
+				A0A860CF1C9AD132007D5BAC /* CCButton.m in Sources */,
+				A0A860C51C9ABF17007D5BAC /* WheelView.m in Sources */,
 				A0A860BF1C9A94CE007D5BAC /* AnimViewController.m in Sources */,
 				A0A860BC1C9A8F06007D5BAC /* CALayerViewController.m in Sources */,
 				A0A860B91C9A8CBE007D5BAC /* MainTableViewController.m in Sources */,
