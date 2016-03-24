@@ -20,16 +20,19 @@
 
 
 @implementation WheelView
+
 - (IBAction)chooseNumber:(UIButton *)sender {
     [self stopAnimation];
-    CABasicAnimation *anim = [CABasicAnimation animation];
-    anim.keyPath = @"transform.rotation";
-    anim.toValue = @(2 * M_PI * 3);
-    anim.duration = 2;
-    anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    anim.delegate = self;
+    CABasicAnimation *anim      = [CABasicAnimation animation];
+    anim.keyPath                = @"transform.rotation";
+    anim.toValue                = @(2 * M_PI * 3);
+    anim.duration               = 2;
+    anim.timingFunction         = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    anim.delegate               = self;
     [self.centerView.layer addAnimation:anim forKey:nil];
     self.userInteractionEnabled = NO;
+    
+    [UIImage imageNamed:@"LuckyAstrologyPressed"];
 }
 
 
@@ -78,7 +81,7 @@
         //背景图片
         [btn setBackgroundImage:[UIImage imageNamed:@"LuckyRototeSelected"] forState:UIControlStateSelected];
         btn.bounds = CGRectMake(0, 0, 68, 143);
-      
+        
         //设置定位点和位置
         btn.layer.anchorPoint = CGPointMake(0.5, 1);
         btn.layer.position = self.center;
@@ -96,6 +99,8 @@
             [self btnClick:btn];
         }
     }
+    
+    
     
 }
 
