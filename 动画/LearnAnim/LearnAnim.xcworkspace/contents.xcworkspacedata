@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ButtonAngle/ButtonAngle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LearnCALayer_01/LearnCALayer_01.xcodeproj">
+   </FileRef>
+</Workspace>
